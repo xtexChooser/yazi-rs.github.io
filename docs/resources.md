@@ -29,7 +29,7 @@ Binary:
 Media:
 
 - [exifaudio.yazi](https://github.com/Sonico98/exifaudio.yazi) - Preview audio metadata and cover using [exiftool](https://exiftool.org/).
-- [mediainfo.yazi](https://github.com/boydaihungst/mediainfo.yazi) - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
+- [mediainfo.yazi](https://github.com/boydaihungst/mediainfo.yazi) - Preview image, audio, video, subtitle and many media files using `ffmpeg` and `mediainfo`.
 
 Archives:
 
@@ -64,6 +64,7 @@ Bookmarks:
 
 - [bookmarks.yazi](https://github.com/dedukun/bookmarks.yazi) - A Yazi plugin that adds the basic functionality of Vi-like marks.
 - [mactag.yazi](https://github.com/yazi-rs/plugins/tree/main/mactag.yazi) - Bring macOS's awesome tagging feature to Yazi! The plugin is only available for macOS just like the name says.
+- [simple-tag.yazi](https://github.com/boydaihungst/simple-tag.yazi) - Tagging feature for Linux, macOS and Windows!
 - [yamb.yazi](https://github.com/h-hg/yamb.yazi) - Yet another bookmarks plugins. It supports persistence, jumping by a key, jumping by [fzf](https://github.com/junegunn/fzf).
 - [bunny.yazi](https://github.com/stelcodes/bunny.yazi) - Simple bookmarks menu with fuzzy searching and an option to mark a single directory.
 
@@ -123,8 +124,9 @@ UI enhancements:
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - Customize header-line and status-line with an easy configuration.
 - [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
 - [no-status.yazi](https://github.com/yazi-rs/plugins/tree/main/no-status.yazi) - Remove the status bar.
-- [dual-pane.yazi](https://github.com/dawsers/dual-pane.yazi) - Dual pane navigation for Yazi like vifm or midnight commander.
+- [dual-pane.yazi](https://github.com/dawsers/dual-pane.yazi) - Dual pane navigation for Yazi like Vifm or midnight commander.
 - [toggle-view.yazi](https://github.com/dawsers/toggle-view.yazi) - Toggle on or off the parent, current or preview panels.
+- [pref-by-location.yazi](https://github.com/boydaihungst/pref-by-location.yazi) - Save and restore linemode/sorting/hidden preferences based on directory location.
 
 ## 🚀 Preloaders {#preloaders}
 
@@ -177,4 +179,4 @@ If your plugin meets the following requirements, please click "Edit this page" b
 - **Functional** - we will install and test it, since we want all links included on this page to be valid. If it's available only on a specific platform, a note should be added in the README.
 - **Follow conventions** - it should be a directory/repository ending with `.yazi`, and include the files listed in the [plugin documentation](/docs/plugins/overview).
 
-If it's a Neovim or Shell plugin, appending `.nvim` or `.sh` to the name to make it distinguishable is a best practice, but it's not required.
+If it's a Neovim or shell plugin, appending `.nvim` or `.sh` to the name to make it distinguishable is a best practice, but it's not required.
